@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_52d0683c83aa4696ad9c1fb465042d4c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css" />
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_52d0683c83aa4696ad9c1fb465042d4c" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_52d0683c83aa4696ad9c1fb465042d4c = L.map(
+                                  'map_52d0683c83aa4696ad9c1fb465042d4c',
+                                  {center: [37.9,-121.3],
+                                  zoom: 1,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ca6faefe73d34f36a433ff73337fa1ef = L.tileLayer(
+                'https://{s}.tiles.mapbox.com/v3/mapbox.world-bright/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_52d0683c83aa4696ad9c1fb465042d4c);
+        
+    
+            var marker_cluster_5bc77d9164b24d06915384b92779262e = L.markerClusterGroup({
+                
+            });
+            map_52d0683c83aa4696ad9c1fb465042d4c.addLayer(marker_cluster_5bc77d9164b24d06915384b92779262e);
+            
+    
+
+            var marker_11f630ab4ab24a82863546edb10be505 = L.marker(
+                [33.0140573920652,-117.112393598658],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5bc77d9164b24d06915384b92779262e);
+            
+    
+            var popup_2d86f6e2773448bb82ac561094196a55 = L.popup({maxWidth: '300'});
+
+            
+                var html_41f5482b98c247e2b4abe2b54172cb57 = $('<div id="html_41f5482b98c247e2b4abe2b54172cb57" style="width: 100.0%; height: 100.0%;">Company Name: BAE Systems<br>Job Title: Jr. Software Engineer<br>Wanted Requirements: C/C++, Java, JS, React, Node.js<br>Address: San Diego, CA 92127<br>Salary: 0<br>Average Rent: 2200<br>Distance: 45<br>Application Status: Not Sent<br></div>')[0];
+                popup_2d86f6e2773448bb82ac561094196a55.setContent(html_41f5482b98c247e2b4abe2b54172cb57);
+            
+
+            marker_11f630ab4ab24a82863546edb10be505.bindPopup(popup_2d86f6e2773448bb82ac561094196a55);
+
+            
+        
+    
+
+            var marker_e4952d4d771440078c234278ad1d9c21 = L.marker(
+                [38.6180340789397,-121.056107015331],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5bc77d9164b24d06915384b92779262e);
+            
+    
+            var popup_80aeb04cbb4b4beda78717a30182baf7 = L.popup({maxWidth: '300'});
+
+            
+                var html_4019f0ee666a43df909eba1d1b10dde5 = $('<div id="html_4019f0ee666a43df909eba1d1b10dde5" style="width: 100.0%; height: 100.0%;">Company Name: Broadridge Financial Solutions <br>Job Title: Jr. Java/JavaScript Web Developer<br>Wanted Requirements: Java, AngularJS, Spring MVC, JMS, EJB 3.0, NodeJS<br>Address: 5220 Robert J Mathews Pkwy, El Dorado Hills, CA<br>Salary: 70000<br>Average Rent: 1400<br>Distance: 54<br>Application Status: Not Sent<br></div>')[0];
+                popup_80aeb04cbb4b4beda78717a30182baf7.setContent(html_4019f0ee666a43df909eba1d1b10dde5);
+            
+
+            marker_e4952d4d771440078c234278ad1d9c21.bindPopup(popup_80aeb04cbb4b4beda78717a30182baf7);
+
+            
+        
+    
+
+            var marker_dc58d45b9d7c474790ef674d36304631 = L.marker(
+                [38.5815719,-121.4943996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5bc77d9164b24d06915384b92779262e);
+            
+    
+            var popup_521e2e31fc1242b598c7e67a79dd9040 = L.popup({maxWidth: '300'});
+
+            
+                var html_eeb5d34780304144a60c3b0e64aa5441 = $('<div id="html_eeb5d34780304144a60c3b0e64aa5441" style="width: 100.0%; height: 100.0%;">Company Name: SAP HANA Engineering<br>Job Title: Jr. Web Developer<br>Wanted Requirements: JavaScript, SQL, Relational Databases<br>Address: Sacramento, CA<br>Salary: 0<br>Average Rent: 1400<br>Distance: 54<br>Application Status: Not Sent<br></div>')[0];
+                popup_521e2e31fc1242b598c7e67a79dd9040.setContent(html_eeb5d34780304144a60c3b0e64aa5441);
+            
+
+            marker_dc58d45b9d7c474790ef674d36304631.bindPopup(popup_521e2e31fc1242b598c7e67a79dd9040);
+
+            
+        
+    
+
+            var marker_57859bf032d14adbadc4aebcfa584997 = L.marker(
+                [38.5815719,-121.4943996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5bc77d9164b24d06915384b92779262e);
+            
+    
+            var popup_89cd7459ec2b48fd89bc0666c217ee8a = L.popup({maxWidth: '300'});
+
+            
+                var html_4e26d41ad545425a9965746fd8bd1547 = $('<div id="html_4e26d41ad545425a9965746fd8bd1547" style="width: 100.0%; height: 100.0%;">Company Name: ScrumLink, INC<br>Job Title: Jr. Java Devloper<br>Wanted Requirements: Java<br>Address: Sacramento, CA<br>Salary: 60000<br>Average Rent: 1400<br>Distance: 54<br>Application Status: Not Sent<br></div>')[0];
+                popup_89cd7459ec2b48fd89bc0666c217ee8a.setContent(html_4e26d41ad545425a9965746fd8bd1547);
+            
+
+            marker_57859bf032d14adbadc4aebcfa584997.bindPopup(popup_89cd7459ec2b48fd89bc0666c217ee8a);
+
+            
+        
+    
+
+            var marker_2a82ce5033bd42a096ad8b594b414171 = L.marker(
+                [38.5815719,-121.4943996],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(marker_cluster_5bc77d9164b24d06915384b92779262e);
+            
+    
+            var popup_421294efb400497e85057f276e0d774a = L.popup({maxWidth: '300'});
+
+            
+                var html_c6fb5ff01c3349249874b37357f1e077 = $('<div id="html_c6fb5ff01c3349249874b37357f1e077" style="width: 100.0%; height: 100.0%;">Company Name: Wyndow<br>Job Title: Jr. PHP Developer<br>Wanted Requirements: PHP<br>Address: Sacramento, CA<br>Salary: 50000<br>Average Rent: 1400<br>Distance: 54<br>Application Status: Not Sent<br></div>')[0];
+                popup_421294efb400497e85057f276e0d774a.setContent(html_c6fb5ff01c3349249874b37357f1e077);
+            
+
+            marker_2a82ce5033bd42a096ad8b594b414171.bindPopup(popup_421294efb400497e85057f276e0d774a);
+
+            
+        
+</script>
