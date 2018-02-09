@@ -46,4 +46,3 @@ def update(id, companyName, jobTitle, wantedReq, address, salary, avgRent, dista
     conn.close()
 
 connect()
-#insert(60000, 3500, "1600 Holloway Ave, San Francisco, CA 94132")
